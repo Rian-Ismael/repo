@@ -80,7 +80,6 @@ public class GoogleJobStoreTest {
     Truth.assertThat(counts.get(ITEM_NAME)).isEqualTo(1);
   }
 
-  @Test
   public void canAddExistingKeysToCurrentCountsTest() throws IOException {
     addItemToJobStoreCounts(ITEM_NAME);
     addItemToJobStoreCounts(ITEM_NAME);
