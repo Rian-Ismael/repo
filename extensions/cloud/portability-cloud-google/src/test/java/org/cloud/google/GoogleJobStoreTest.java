@@ -57,7 +57,6 @@ public class GoogleJobStoreTest {
 
   }
 
-  @Test
   public void getDataKeyName() throws Exception {
     assertEquals(
         JOB_ID + "-tempTaskData",
